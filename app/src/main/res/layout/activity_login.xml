@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".LoginActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="WELCOME"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:textSize="40dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username_edit_text"
+        android:hint="username"
+        android:autofillHints="username"
+        android:layout_margin="16dp"
+        android:inputType="text" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password_edit_text"
+        android:hint="password"
+        android:autofillHints="username"
+        android:layout_margin="16dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_button"
+        android:text="LOGIN"
+        android:textSize="15sp"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not a registered user, Click the button below to register"
+        android:layout_margin="18dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/register_button"
+        android:text="REGISTER"
+        android:textSize="15sp"
+        android:layout_margin="6dp"/>
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/confirm_password_edit_text"-->
+<!--        android:hint="username"-->
+<!--        android:autofillHints="username"-->
+<!--        android:layout_margin="8dp"-->
+<!--        android:inputType="textPassword" />-->
+
+</LinearLayout>
